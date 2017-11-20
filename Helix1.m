@@ -16,9 +16,9 @@ if nargin == 0
    cir = 5;
 end
 if rotflag == 0
-    p = 1
+    p = 1;
 else
-    p = -1
+    p = -1;
 end
 
 phi = verktorWinkel([1;0],[r0(1);r0(2)]);
